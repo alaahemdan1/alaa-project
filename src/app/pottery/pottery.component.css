@@ -1,0 +1,82 @@
+/*---------------------------------- Start Pottery Section --------------------*/
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-body h4 {
+  font-size: 1.rem;
+  color: #ff5722;
+}
+
+.card-body del {
+  color:gray;
+  margin-left: 10px;
+  text-decoration: line-through; /* لجعل النص مشطوبًا */
+
+}
+.card-body h5{
+color: green;
+font-size: 19px;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.btn {
+  padding: 10px 60px;
+  font-size: 0.8rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+h2#السعف{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn-primary:hover {
+  background-color: blue;
+}
+
+.current-price {
+  font-size: 1.2em;
+}
+
+.old-price {
+  font-size: 1em;
+}
+
+.card-body .d-grid {
+  margin-top: 10px;
+}
+
+
+/*---------------------------------- end Pottery Section --------------------*/

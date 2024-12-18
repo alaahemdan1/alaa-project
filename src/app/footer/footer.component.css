@@ -1,0 +1,90 @@
+/* -------------------------------------------- start footer --------------- */
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  }
+
+  .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px; /* المسافة بين العناصر */
+  }
+
+
+  .footer-map {
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 15px;
+  height: 200px; /* حجم الخريطة */
+  }
+
+  .footer-center {
+  flex: 1;
+  text-align: center;
+  }
+
+  .footer-center ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+
+  .footer-center ul li {
+  margin: 0 10px;
+  }
+
+  .footer-center ul li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  }
+
+
+
+
+  .payment .icon-pay {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-size: 24px;
+  }
+
+
+
+
+
+  .footer-right {
+  flex: 1;
+  text-align: right;
+  }
+
+  .footer-right ul {
+  list-style-type: none;
+  padding: 0;
+  }
+
+  .footer-right ul li {
+  margin-bottom: 10px;
+  }
+
+  .footer-right ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  }
+
+  .footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #1b1b1b;
+  margin-top: 20px;
+  }
+
+
+
+
+  /* -------------------------------------------- end footer --------------- */

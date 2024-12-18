@@ -1,0 +1,65 @@
+.main-cart .scoial-icon {
+  display: flex;
+  font-size:20px;
+
+}
+.main-cart .scoial-icon .cart-shoping{
+  padding-left:30px ;
+  color: #000;
+transition: 0.3s;
+padding-right: 10px;
+}
+.main-cart .scoial-icon .cart-shoping:hover{
+  color:rgb(130, 129, 129);
+
+}
+.main-cart .scoial-icon .cart-wish{
+  font-size:20px ;
+  padding-left:30px ;
+  color: #000;
+  transition: 0.3s;
+}
+
+.main-cart .scoial-icon .cart-wish:hover{
+  color: rgb(216, 220, 218);
+}
+.main-cart .scoial-icon .login a{
+  color: #000;
+  transition: 0.3s;
+}
+.main-cart .scoial-icon .login a:hover{
+  color: rgb(216, 220, 218);
+}
+
+
+/* ---------------------------------- start header----------------------------------- */
+
+.header .main-header {
+  width: 70%;
+  margin: auto ;
+}
+
+.header .main-header .lists ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 7px;
+}
+
+.header .main-header .lists ul li{
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.header .main-header .lists ul li:hover{
+  background-color: rgb(216, 220, 218);
+}
+.header .main-header .lists ul li a{
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+
+}
+/* --------------------------------------------- End header------------------------------------- */

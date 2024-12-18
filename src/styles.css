@@ -1,0 +1,66 @@
+/*---------------------------------- start   Golobal       rules ------------------------- */
+
+* ,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --default-background-color-light: #fff;
+  --default-text-color-light: #fff;
+  --main-section-background:#f0cb29;
+  --background-color-dark:#121212;
+  --text-color-dark: #ffffff;
+}
+
+
+
+/*--------------------------------------- End Golobalrules ------------------------------------ */
+
+
+
+body {
+  background-color: var(--default-background-color-light);
+  color: var(--default-text-color-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+
+/*  --------------------------------------------------------------start sponser static---------------------------------------------------- */
+
+/*for Demo Only*/
+.demo-row {
+  padding: 50px 0;
+}
+
+/*Implement*/
+.sponsor-feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+#id-sponsors .carousel {
+    margin-bottom: 20px;
+}
+#id-sponsors .item {
+    padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+    bottom: -25px;
+}
+
+/*  --------------------------------------------------------------end sponser static---------------------------------------------------- */
