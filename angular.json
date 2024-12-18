@@ -25,6 +25,7 @@
           "options": {
             "outputPath": "dist/final-project",
             "index": "src/index.html",
+            "baseHref": "/alaa-project/",  // إضافة base-href للمسار الفرعي
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
