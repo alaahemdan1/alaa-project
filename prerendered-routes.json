@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/gifts",
+    "/home",
+    "/plam",
+    "/pottery",
+    "/who-we-are"
+  ]
+}
